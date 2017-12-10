@@ -1,0 +1,6 @@
+framework module Pods_SentinelTests {
+  umbrella header "Pods-SentinelTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

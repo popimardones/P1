@@ -1,0 +1,25 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Sentinel' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Sentinel
+
+pod 'Firebase/Core'
+pod 'Firebase/Database'
+pod 'Firebase/Storage'
+pod 'Firebase/Auth'
+
+  target 'SentinelTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'SentinelUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
